@@ -4,8 +4,11 @@
 This project simulates a hybrid cloud environment using intelligent agents.
 
 ## Technologies
+
 Python
+
 Flask
+
 HTML
 
 ## Features
@@ -16,4 +19,5 @@ HTML
 ## How to Run
 
 pip install flask
+
 python app.py
