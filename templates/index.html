@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+<title>Hybrid Cloud System</title>
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#3ec5ff,#adeaff,#2c5364);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+}
+
+.container{ 
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(255, 36, 36, 0.3);
+    width:350px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:25px;
+    color:#000000;
+}
+
+label{
+    font-size:14px;
+    font-weight:bold;
+    color:#555;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+    outline:none;
+    transition:0.3s;
+}
+
+input:focus{
+    border-color:#2c5364;
+    box-shadow:0 0 5px rgba(5, 93, 130, 0.5);
+}
+
+button{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    background:#2c5364;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1e5ad2;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h2>Agent Based Hybrid Cloud Application</h2>
+
+<form action="/submit" method="post">
+
+<label>Enter Task</label><br>
+<input type="text" name="task" required>
+
+<br><br>
+
+<button type="submit">Submit Task</button>
+
+</form>
+
+</body>
+</html>
